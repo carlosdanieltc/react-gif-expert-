@@ -9,7 +9,7 @@ export const GifGrid = ({ category }) => {
     <>
       <h3>{category}</h3>
       {
-        isLoading && <h2>Cargando...</h2> //Funciona como un if
+        isLoading && <h2>Cargando...</h2> //Funciona como un if, si isLoading está en true devuelve lo de la derecha, en este caso el h2
       }
 
       <div className="card-grid">
